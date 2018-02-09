@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },
+
+    {
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },{
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },{
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },{
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },{
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },{
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    },{
+      "name": "Example Food Name",
+      "imageURL": "img/buyerMenuPic.png",
+      "price": "$x.xx",
+      "distance": "x.x mi",
+      "sellerRating": "x.x",
+      "pickupTime": "xx:xx"
+    }
+  ]
+}

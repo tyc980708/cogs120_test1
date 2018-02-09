@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Buyer homepage</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="/css/userHome.css" rel="stylesheet">
+
+	<!-- Use internet source for icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class = "container">
+		<table>
+			<td><div class="topIcon" id = "drop_down"><i class="material-icons" style="font-size:50px;">menu</i></div></td>
+			<td><h1>Menus to Eat</h1></td>
+			<td id="topRightIconPadding"> </td>
+				<td><div class="topIcon" id = "history"><a href="./buyer_orderHistory"><i class="material-icons" style="font-size:50px;">history</i></a></div></td>
+		</table>
+
+		<div class = "search">
+			<input type="text" id="myInput" placeholder="Search" title="Type in a name">
+		</div>
+	
+		{{#each items}}
+		<div class = "items">
+			<a href="./index_itemDetail.handlebars">
+			<table>
+				<tr>
+					<td rowspan="2">
+      					<img src="{{imageURL}}">
+      				</td>
+      				<td colspan="2">
+      						<h4 class = "item_name">{{name}}</h4>
+      				</td>
+      				<td></td>
+      			</tr>
+      				<td>
+      					<p><Strong>Price: </strong>{{price}}</p>
+      					<p><Strong>Distance: </Strong>{{distance}}</p>
+      				</td>
+      				<td>
+      					<p><Strong>Seller Rating: </Strong>{{sellerRating}}</p>
+      					<p><Strong>Pickup Time: </Strong>{{pickupTime}}</p>
+      				</td>
+      			<tr>
+			</table>
+			</a>
+		</div>
+		{{/each}}
+	</div>
+	<script src="/js/jquery-1.11.0.js"></script>
+	<script src="/js/bootstrap.js"></script>
+	<script src="/js/userHome.js"></script>
+</body>
+</html>

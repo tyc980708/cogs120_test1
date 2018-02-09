@@ -1,0 +1,38 @@
+
+.topIcon {
+	padding-top: 12px;
+}
+
+.details {
+	padding-left: 20px;
+}
+
+#callAndText {
+	padding-left: 20px;
+}
+
+#total {
+	background-color: gray;
+	width: 26vw;
+	height: 20px;
+	border: none;
+	color: white;
+	text-align: center;
+}
+
+.text {
+	font-size: 20px;
+	max-width: 380px;
+	margin-left: 16px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 10vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
