@@ -5,5 +5,5 @@
 var data = require('../buyer_menu.json');
 
 exports.view = function(req, res){
-  res.render('buyer_orderHistory', data);
+  res.render('seller_nextMenu', data);
 };

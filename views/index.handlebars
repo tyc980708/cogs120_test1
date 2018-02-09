@@ -13,10 +13,12 @@
 <body>
 	<div class = "container">
 		<table>
-			<td><div class="topIcon" id = "drop_down"><i class="material-icons" style="font-size:50px;">menu</i></div></td>
+			<td><div class="topIcon" id = "drop_down">
+				<a href="seller_home"><i class="material-icons" style="font-size:50px;">menu</i></div></td></a>	
 			<td><h1>Menus to Eat</h1></td>
 			<td id="topRightIconPadding"> </td>
-				<td><div class="topIcon" id = "history"><a href="./buyer_orderHistory"><i class="material-icons" style="font-size:50px;">history</i></a></div></td>
+			<td><div class="topIcon" id = "history"><a href="./buyer_orderHistory"><i class="material-icons" style="font-size:50px;">history</i></a></div></td>
+			<td><div class="topIcon" id = "account_box"><a href="./account"><i class="material-icons" style="font-size:50px;">account_box</i></a></div></td>
 		</table>
 
 		<div class = "search">
@@ -25,7 +27,7 @@
 	
 		{{#each items}}
 		<div class = "items">
-			<a href="./index_itemDetail.handlebars">
+			<a href="./index_itemDetail">
 			<table>
 				<tr>
 					<td rowspan="2">
